@@ -1,6 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Indie+Flower&family=Quicksand:wght@300&display=swap');
+html{
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 300;
+}
 .menu{
-    background-color: black;
-    color:white;
+    background-color: white;
+    color:black;
     font-weight: 800;
     text-align: center;
+}
+
+.heading,.recipes-title{
+    font-size: xx-large;
+    text-align: center;
+}
+#logo{
+    width:100px;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    width:350px;
+    height: 800px;
+
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left:30px;
+    width:1000px;
+    height: 800px;
+}
+.content img{
+    border-radius:10px;
+}
+
+.ingredient-container{
+    border-radius:10px;
+    background-color:rgb(240,236,230);
+    padding:20px;
+    flex-grow:3;
+    height:fit-content;
+}
+.about{
+    border-radius:10px;
+    background-color:white;
+    padding:20px;
+    flex-grow:3;
+}
+.content{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.right-top{
+    border-radius: 10px;
+    border:1px solid rgb(41, 41, 41);
+    height:280px;
+}
+.item{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    align-items: center;
+    width:400px;
+    text-align: center;
+}
+   
+div img{
+    width:350px;
+    height:200px;
+}
+.steps-container{   
+    border-radius: 10px;
+    border:1px solid rgb(71, 71, 71);
+    height: 800px;
+
+}
+
+.right-top,
+.steps-container{
+    padding:0 20px 0px 20px;
 }
